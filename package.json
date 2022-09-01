@@ -1,0 +1,17 @@
+{
+  "name": "cypressqa14",
+  "version": "1.0.0",
+  "description": "To test frist cypress app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  },
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
