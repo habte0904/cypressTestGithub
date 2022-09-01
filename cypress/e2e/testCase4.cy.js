@@ -20,7 +20,7 @@ describe("Handling Web Elements",()=>{
         })
     })
 
-    it("Handling Table",()=>{
+  /*   it("Handling Table",()=>{
        // cy.visit("https://rahulshettyacademy.com/AutomationPractice/")
 
         cy.get('tr td:nth-child(2)').each(($el,$index,$list)=>{
@@ -37,7 +37,7 @@ describe("Handling Web Elements",()=>{
            
         })
     })
-
+ */
     it("Handling Mouse Over",()=>{
        // cy.visit("https://rahulshettyacademy.com/AutomationPractice/")
         cy.get('div .mouse-hover-content').invoke("show")
